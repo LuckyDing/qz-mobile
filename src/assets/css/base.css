@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: block;
+    width: 7.5rem;
+    background-color: #f1f2f4
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black
+}
+input{
+  outline: none;
+}
+img{
+  display: block;
+}
+@media screen and (max-width:321px){
+    .weui-toast,.weui-loading_toast,.content{font-size:14px}
+}
+
+@media screen and (min-width:321px) and (max-width:400px){
+    .weui-toast,.weui-loading_toast,.content{font-size:16px}
+}
+
+@media screen and (min-width:400px){
+    .weui-toast,.weui-loading_toast,.content{font-size:16px}
+}
+.weui-cells{
+  margin-top: 0 !important;
+}
+list{
+  list-style: none;
+}
+.vux-flexbox{
+  box-sizing: border-box;
+}
+.weui-cells_form .weui-cell__ft{
+  font-size: 1em !important;
+}
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon > i, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label{
+  color: #00b7ee !important
+}
+#tabContent img{
+  max-width: 100%;
+}

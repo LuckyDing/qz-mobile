@@ -1,0 +1,121 @@
+.font-12{
+  font-size: 12px !important
+}
+.font-14{
+  font-size: 14px !important
+}
+.font-16{
+  font-size: 16px !important
+}
+.font-18{
+  font-size: 18px !important
+}
+.font-24{
+  font-size: 24px !important
+}
+.font-36{
+  font-size: 36px !important
+}
+/*颜色*/
+/*红*/
+[color = red]{
+  color:#ff0000;
+}
+/*橙*/
+[color = orange]{
+  color:#ff9900;
+}
+/*黄*/
+[color = yellow]{
+  color:#ffff00;
+}
+/*绿*/
+[color = green]{
+  color:#00CD00;
+}
+/*青*/
+[color = indigo]{
+  color:#49556b;
+}
+/*蓝*/
+[color = blue]{
+  color:#00b7ee;
+}
+/*紫*/
+[color = purple]{
+  color:#9900ff;
+}
+/*粉*/
+[color = pink]{
+  color:#ff00ff;
+}
+
+/*黑*/
+[color = black]{
+  color:#000;
+}
+/*白*/
+[color = white]{
+  color:#fff;
+}
+[color = gray]{
+  color: #ababab;
+}
+[color = price_merchant]{
+  color: #dabb84
+}
+[color = sevenok]{
+  color: #6679b3
+}
+.dy_link::after{
+  content: " ";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #C8C8CD;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  right: 2px;
+}
+.underline{
+  text-decoration: underline;
+}
+.spart::after{
+  content: '';
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  border-right: 1px solid #fff
+}
+.cicle{
+  border-radius: 50%;
+  overflow: hidden;
+}
+.background-white{
+  background-color: #fff;
+}
+.background-gold{
+  background-color: #dabb84;
+}
+.float-right{
+  float: right;
+}
+.bolder{
+  font-weight: bolder;
+}
+.cell_title{
+  color:#888;
+  background-color: #eee;
+  padding: 1em 0.5em 0.5em .5em;
+  font-size: 0.75em;
+}
+.desc{
+  color:#D0D0D0;
+  font-size:0.875em;
+}
